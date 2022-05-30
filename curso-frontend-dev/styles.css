@@ -12,8 +12,183 @@
     --text-input-field: #f7f7f7;
     --black: #000000;
     --hospital-green: #acd9b2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
 }
 
 body {
     font-family: 'Quicksand', sans-serif;
+}
+
+.main_container {
+    width: 100%;
+    height: 100vh;
+    padding: 16px;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_container {
+    max-width: 425px;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.form_container .logo {
+    align-self: center;
+    width: 150px;
+    margin-block: 50px;
+}
+
+.form_container .email_logo {
+    align-self: center;
+    width: 150px;
+    margin-block: 50px;
+}
+
+.form_container .text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.form_container .title {
+    font-size: var(--lg);
+}
+
+.form_container .title_left {
+    align-self: flex-start;
+}
+
+.form_container .subtitle {
+    font-size: var(--md);
+    color: var(--very-light-pink);
+    text-align: center;
+}
+
+.form_container .form {
+    margin-block: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form_container .user_input {
+   display: flex;
+   flex-direction: column;
+}
+
+.user_input .label {
+    font-weight: bold;
+    font-size: var(--sm);
+}
+
+.form_container .input {
+    background-color: var(--text-input-field);
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+.form_container .button {
+    border: none;
+    border-radius: 8px;
+    background-color: var(--hospital-green);
+    color: var(--white);
+    padding: 16px;
+    font-size: var(--lg);
+    margin-block-start: 10px;
+    cursor: pointer;
+}
+
+.not_received_text {
+    text-align: center;
+    font-size: var(--sm);
+    color: var(--very-light-pink);
+}
+
+.link {
+    font-size: inherit;
+    color: var(--hospital-green);
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.button.secondary {
+    margin-block-start: 150px;
+    background-color: var(--white);
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+}
+
+.value {
+    font-size: var(--sm);
+    color: var(--very-light-pink);
+}
+
+.hero_container {
+    border: 1px solid red;
+
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid_container {
+    width: 1200px;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.card {
+    width: 150px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid var(--very-light-pink);
+}
+
+.card_image {
+    width: 100%;
+    margin-block-end: 20px;
+    border-radius: 16px;
+}
+
+.card_description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_icon {
+    cursor: pointer;
+}
+
+.title {
+    color: var(--black);
+    font-size: var(--md);
+}
+
+.subtitle {
+    color: var(--very-light-pink);
+    font-size: var(--sm);
+}
+
+@media (min-width: 650px) {
+    .form_container .logo {
+        display: none;
+    }
 }
