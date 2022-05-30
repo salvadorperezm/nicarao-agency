@@ -1,0 +1,19 @@
+*,
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --very-light-pink: #c7c7c7;
+    --white: #FFFFFF;
+    --text-input-field: #f7f7f7;
+    --black: #000000;
+    --hospital-green: #acd9b2;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
