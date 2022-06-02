@@ -56,15 +56,19 @@ html {
 }
 
 .social-media__container {
+    padding-block: 10px;
+
     justify-content: flex-end;
 }
 
 .social-media__list {
-    list-style-type: none;
-
     display: flex;
     align-items: center;
     gap: 30px;
+}
+
+.social-media__icon {
+    color: var(--white);
 }
 
 .about__container {
