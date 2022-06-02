@@ -1,0 +1,36 @@
+@import url("styles.css");
+
+.main {
+    background-image: url("/assets/images/cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.main__text {
+    text-align: center;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.main__button {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 864px) {
+    .main {
+        padding: 10px;
+    }
+}
