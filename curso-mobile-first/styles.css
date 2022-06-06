@@ -185,7 +185,7 @@ table, th, td {
 
 .bg-image__section {
     height: 387px;
-    background-image: url("/assets/images/bitcoin-baby.png");
+    background-image: url("../assets/images/bitcoin-baby.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
