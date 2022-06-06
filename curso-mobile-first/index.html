@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
 
     <!-- DM Sans font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,6 +14,80 @@
     <title>Curso Mobile First</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__logo-container">
+            <img src="assets/images/batabit-logo.png" alt="batabit logo" class="header__logo">
+        </div>
+        <h1 class="header__title">
+            La próxima revolución en el intercambio de criptomonedas.
+        </h1>
+        <p class="header__text">
+            Batabit te ayuda a navegar entre los diferentes precios y tendencias.
+        </p>
+        <button class="header__button">
+            Conoce Nuestros Planes
+        </button>
+    </header>
+    <main class="main">
+        <section class="section__bitcoin">
+            <img src="assets/images/bitcoin.png" alt="bitcoin" class="bitcoin__logo">
+            <h2 class="bitcoin__title">
+                Visibilizamos todas las tasas de cambio.
+            </h2>
+            <p class="bitcoin__text">
+                Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.
+            </p>
+            <div class="bitcoin__table-container">
+                <h3 class="table__title">Monedas</h3>
+                <table class="table">
+                    <tr>
+                        <th scope="row" class="table__header">Bitcoin</th>
+                        <td class="table__data">$ 1.96<img src="assets/icons/arrow-down.png" alt="arrow down"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="table__header">Ethereum</th>
+                        <td class="table__data">$ 0.07<img src="assets/icons/arrow-up.png" alt="arrow up"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="table__header">Ripple</th>
+                        <td class="table__data">$ 2.15<img src="assets/icons/arrow-down.png" alt="arrow down"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="table__header">Stellar</th>
+                        <td class="table__data">$ 4.96<img src="assets/icons/arrow-down.png" alt="arrow down"></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="section__product">
+            <h3 class="product__title">Creamos un producto sin comparación.</h3>
+            <p class="product__text">Confiable y diseñado para su uso diario.</p>
+            <div class="product__cards">
+                <div class="card">
+                    <img src="assets/icons/timer-icon.png" alt="clock icon">
+                    <h4 class="card__title">Tiempo real</h4>
+                    <p class="card__text">Nuestro API toma información minuto a minuto sobre las tasas que más determinan el comportamiento.</p>
+                </div>
+                <div class="card">
+                    <img src="assets/icons/eye-icon.png" alt="eye icon">
+                    <h4 class="card__title">No hay tasas escondidas</h4>
+                    <p class="card__text">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+                </div>
+                <div class="card">
+                    <img src="assets/icons/dollar-icon.png" alt="dollar icon">
+                    <h4 class="card__title">Compara monedas</h4>
+                    <p class="card__text">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+                </div>
+                <div class="card">
+                    <img src="assets/icons/check-icon.png" alt="check icon">
+                    <h4 class="card__title">Información confiable</h4>
+                    <p class="card__text">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-image__section">
+            
+        </section>
+    </main>
 </body>
 </html>
