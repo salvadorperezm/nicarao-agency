@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Curso Practico JS | Descuento</title>
+</head>
+
+<body>
+    <div class="hero-container">
+        <header class="header">
+            <h1><a href="index.html" class="header__logo">Curso Practico JS</a></h1>
+            <nav>
+                <ul class="header__list">
+                    <li><a href="figuras.html" class="header__link">Figuras Geometricas</a></li>
+                    <li><a href="#" class="header__link">Descuento</a></li>
+                    <li><a href="#" class="header__link">Random</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <h2 class="main__title">Calcula el porcentaje a pagar con el descuento aplicado</h2>
+            <section class="section">
+                <form class="section__form">
+                    <input type="number" class="section__input" id="retailPrice">
+                    <label for="retailPrice">Ingresa el precio original en C$</label>
+                    <input type="number" class="section__input" id="discountPercentage">
+                    <label for="discountPercentage">Ingresa el % de descuento</label>
+                    <button class="section__button" id="discountButton" type="button">Calcular</button>
+                    <p class="discountText"></p>
+                </form>
+            </section>
+        </main>
+
+    </div>
+
+    <script src="scripts/descuento.js"></script>
+</body>
+
+</html>
