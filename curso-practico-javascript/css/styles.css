@@ -1,0 +1,66 @@
+*, 
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.hero-container {
+    padding-inline: 12px;
+}
+
+.header {
+    padding-block: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    text-decoration: none;
+    color: black;
+}
+
+.header__list {
+    list-style-type: none;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: blue;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+}
+
+.main__title {
+    margin-block: 20px;
+}
+
+.section {
+    padding-block: 20px;
+}
+
+.section__title {
+    margin-block-end: 10px;
+}
+
+.section__button, 
+.section__input {
+    padding: 5px;
+}
+
+.section p {
+    margin-block: 10px;
+}
