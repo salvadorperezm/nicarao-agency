@@ -11,6 +11,8 @@ html {
 }
 
 .hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
     padding-inline: 12px;
 }
 
@@ -52,6 +54,11 @@ html {
     padding-block: 20px;
 }
 
+.section__form {
+    display: flex;
+    flex-direction: column; gap: 10px;
+}
+
 .section__title {
     margin-block-end: 10px;
 }
@@ -59,6 +66,12 @@ html {
 .section__button, 
 .section__input {
     padding: 5px;
+}
+
+.section__button {
+    width: 100px;
+
+    align-self: center;
 }
 
 .section p {
